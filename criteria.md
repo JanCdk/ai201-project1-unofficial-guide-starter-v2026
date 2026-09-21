@@ -23,8 +23,8 @@ For at least 4 of my 5 test questions, the retrieved chunks include one that
 contains the answer.
 
 **Why this target:**
-<!-- e.g. "One of my questions is about a topic only two documents mention, so
-     I expect that one to be hard." -->
+4/5 because the corpus I picked, campus_life, contains factual and subjective answers. Some answers
+maybe harder to evaluate correctly because of individuals experiences.
 
 ---
 
@@ -33,6 +33,8 @@ contains the answer.
 Every answer the system produces names at least one source document.
 
 **Why this target:**
+Every answer should be based on the information from corpus. So every answer should have at least one
+source document, not less.
 <!-- Why all five and not four? What about your setup makes that achievable —
      or what would have to go wrong for it not to be? -->
 
@@ -50,12 +52,17 @@ in at least 4 of 5 tries.
      just keep five of them, or the "4 of 5" above has nothing to be 4 of. -->
 
 **Why this target:**
+4/5 to have the relevancec gate stop most questions outside the scope. Allowing one
+error while still correctly stopping most out of scope questions.
 <!-- What did your distances look like when you set the cutoff in Milestone 4?
      Was there a clean gap, or did the two groups overlap? -->
 
 ---
 
 ## 4. Something about your chunks
+
+At least 4/5 chunks should have a complete idea or paragraphs and 
+without splitting a sentence in half.
 
 <!-- YOU WRITE THIS ONE.
 
@@ -72,13 +79,16 @@ in at least 4 of 5 tries.
 
 
 **Why this target:**
-
+While most of the documents from corpus have short paragraphs, 4/5 allows some
+documents that are unsually long and harder to split cleanly.
 
 
 ---
 
-## 5. Your choice
-
+## 5. Opinions are attributed.
+Because the corpus contains factual and opinionated information from either student or
+staff, at least 4 of 5 questions should makes it clear when the information comes
+from an indiviual's experience or opinion, rather than presenting it as fact.
 <!-- YOU WRITE THIS ONE TOO.
 
      Pick something you actually care about getting right. It could be about
@@ -90,7 +100,9 @@ in at least 4 of 5 tries.
 
 
 **Why this target:**
-
+4/5 because the corpus contain mix of factual info and opinion. The system should
+correctly attribute opinions to most questions while allowing one questions where 
+the distintion is unclear.
 
 
 ---
