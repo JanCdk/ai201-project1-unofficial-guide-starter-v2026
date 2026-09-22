@@ -29,7 +29,7 @@ QUESTIONS = [
     {"question": "Which the housing option is described as the quietest?", "expects": "Tamsin Court"},
     {"question": "How long does it usually take to see a counsellor?", "expects": "three or four days"},
     {"question": "Which of the dining halls have real espresso?", "expects": "Ridgeway Cafe"},
-    {"question": "How many midterms does MATH 220 have?", "expects": " two midterms"},
+    {"question": "How many midterms does MATH 220 have?", "expects": "two midterms"},
 ]
 
 # Questions from a different world entirely. Your gate should refuse all five.
