@@ -102,14 +102,25 @@ The good: cheapest housing tier by about $900 a year, and the singles are real s
 <!-- One complete question and answer, pasted as text, with the source line
      visible. Milestone 4. -->
 
-**Question:**
+**Question: How many midterms does MATH 220 have? **
 
-**Answer:**
+**Answer: MATH 220 has two midterms (source: course_math_220_exams.txt and course_math_220.txt). **
 
 ```
 ```
 
-**My relevance cutoff:**
+**My relevance cutoff: 0.62**
+I took the midpoint between the median retrieval distance from in-corpus vs out-corpus.
+The medians are 0.409 and 0.824, resulting a cutoff of 0.6165 or 0.62, which seperates the
+two groups.
+
+There is a significant gap between in-corpus and out-corpus questions. Where the in-corpus questions
+that should be found had a distance range from 0.182 to 4.55. While the out-corpus questions has a distance range
+of 0.780 and 0.850.
+
+Top_k set to 8 instead of 5. Because my second question ask which housing is the quietest. And I
+believe there is 7 buildings. So the system would need to pull at least 7 chunks where the source is from
+each building to analyze the noise levels and provide an answer. Therefore I have set top_k to 8. 
 
 <!-- The number you set in config.py, and how you got there.
 
@@ -122,7 +133,16 @@ The good: cheapest housing tier by about $900 a year, and the singles are real s
 
 | Question | In corpus? | Best distance |
 |---|---|---|
-|  |  |  |
+| When does the school shuttle service end? | Yes | 0.409 |
+| Which housing option is described as the quietest? | Yes | 0.434 |
+| How long does it usually take to see a counsellor? | Yes | 0.182 |
+| Which of the dining halls have real espresso? | Yes | 0.403 |
+| How many midterms does MATH 220 have? | Yes | 0.455 |
+| What is the capital of Mongolia? | No | 0.799 |
+| How do I change the oil in a diesel engine? | No | 0.850 |
+| Who won the 1994 World Cup? | No | 0.780 |
+| What is the recommended dosage of ibuprofen for a headache? | No | 0.824 |
+| How do I write a for loop in Rust? | No | 0.831 |
 
 ## How I Used AI
 
