@@ -156,8 +156,20 @@ each building to analyze the noise levels and provide an answer. Therefore I hav
      Milestone 5. -->
 
 **1.**
+Because I've placed at AI201 over AI110, I've spent the vast majority of my time
+learning the foundations of AI Engeering. I've ask numerious terms such as
+RAG, chunking, embedding, vector database, top_k, cutoffs, etc. For every topic
+I asked why how when; I've learned alot from doing so. Also went into depth for each subject;
+what are good chunking  methods and why, split with overlap or keep paragraphs, 
+and the limits to chunking. I've learned overall that it's about designing, coding,
+and tuning the system to fit the corpus in order return accurate and reliable answers.
 
 **2.**
+I've also used Claude to analyze the corpus data for character/paragraph count, to tune
+my chunk size settings. At one point for coding, Claude was suggested to import but I feel
+like it was too much change and may conflict on how the system would run. I used it
+instead to assist me to use the existing fallback split as a template and reconstructed it
+to split paragraphs.
 
 <!-- ── Stretch features ─────────────────────────────────────────────────────
      Doing one? Say so here BEFORE you start. A feature this README never
