@@ -22,7 +22,8 @@ Jan Cedrick, Plojo. campus_life
 ## What This Does
 The corpus I picked is campus_life. It contain posts about student life, in
 particular of dining halls, dorms, courses, and admin rules. The system
-is designed to answer practical student questions.
+indexes those post and answers questions only from this corupus source. If the answer
+is not from this corpus, it wont answer the question.
 <!-- Three or four sentences. Which corpus you picked, and the kinds of
      questions your system answers. Write it for someone who has never seen
      this repo.
@@ -158,7 +159,7 @@ each building to analyze the noise levels and provide an answer. Therefore I hav
 **1.**
 Because I've placed at AI201 over AI110, I've spent the vast majority of my time
 learning the foundations of AI Engeering. I've ask numerious terms such as
-RAG, chunking, embedding, vector database, top_k, cutoffs, etc. For every topic
+RAG, corpus, chunking, embedding, vector database, top_k, cutoffs, etc. For every topic
 I asked why how when; I've learned alot from doing so. Also went into depth for each subject;
 what are good chunking  methods and why, split with overlap or keep paragraphs, 
 and the limits to chunking. I've learned overall that it's about designing, coding,
